@@ -63,8 +63,15 @@
 							<div class="input-group-prepend">
 								<span class="input-group-text"><i class="fas fa-venus-mars"></i></span>
 							</div>
+							<select class="form-control">
+								<option>Sex</option>
+								<option>Male</option>
+								<option>Female</option>
+								<option>Other</option>
+							</select>>
+								
 
-							<input type="text" class="form-control" placeholder="Sex" name="sex">
+							<!-- <input type="text" class="form-control" placeholder="Sex" name="sex"> -->
 						</div>
 
 
@@ -105,8 +112,7 @@
 
 
 	<?php  
-		
-		$myfile = fopen("info.txt", "a") or die("Unable to open file!");
+		$myfile = fopen("info.txt", "w") or die("Unable to open file!");
 		$name = $_POST['name'].";";
 		$sex = $_POST['sex'].";";
 		$email = $_POST['email'].";";
