@@ -1,2 +1,0 @@
-# LabThree
-Lab 3
