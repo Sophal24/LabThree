@@ -21,8 +21,8 @@ html,body{
 	filter: alpha(opacity=50);
 }
 
-.card{
-	height: 450px;
+.cardtest{
+	height: 520px!important;
 	margin-top: auto;
 	margin-bottom: auto;
 	width: 400px;
