@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Log In</title>
+	<title>User Detail</title>
    <!--Made with love by Mutiullah Samim -->
    
 	<!--Bootsrap 4 CDN-->
@@ -50,31 +50,37 @@
 					</div>
 				</div>
 				<div class="card-body">
-					<form>
+					<form action="" method="post">
+
 						<div class="input-group form-group">
 							<div class="input-group-prepend">
 								<span class="input-group-text"><i class="fas fa-user"></i></span>
 							</div>
-							<input type="text" class="form-control" placeholder="username">
+							<input type="text" class="form-control" placeholder="username" name="hi">
 							
 						</div>
+
+
 						<div class="input-group form-group">
 							<div class="input-group-prepend">
 								<span class="input-group-text"><i class="fas fa-key"></i></span>
 							</div>
-							<input type="password" class="form-control" placeholder="password">
+							<input type="password" class="form-control" placeholder="password" name="bye">
 						</div>
+
+
 						<div class="row align-items-center remember">
 							<input type="checkbox">Remember Me
 						</div>
 						<div class="form-group">
 							<input type="submit" value="Login" class="btn float-right login_btn">
 						</div>
+
 					</form>
 				</div>
 				<div class="card-footer">
 					<div class="d-flex justify-content-center links">
-						Don't have an account?<a href="signup.html">Sign Up</a>
+						Don't have an account?<a href="signup.php">Sign Up</a>
 					</div>
 					<div class="d-flex justify-content-center">
 						<a href="#">Forgot your password?</a>
